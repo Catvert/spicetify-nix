@@ -2,9 +2,9 @@ let
   pkgs = import <nixpkgs> {};
 in
   pkgs.fetchFromGitHub {
-    owner = "morpheusthewhite";
+    owner = "morpheusthe'white";
     repo = "spicetify-themes";
-    rev = "fdadc4c1cfe38ecd22cf828d2c825e0af1dcda9f";
-    sha256 = "1k44g8rmf8bh4kk16w4n9z1502ag3w67ad3jx28327ykq8pq5w29";
+    rev = "eea80310ae77e3faef245f8ef624c75f0cb74e27";
+    sha256 = "0g07zma6d53cyv56n7919n71hqnsrlszpra55b735jcw6cd5y7y8";
     fetchSubmodules = true;
   }
